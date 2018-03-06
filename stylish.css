@@ -1,0 +1,38 @@
+.navigation-bar {
+  background-color:rgb(245, 236, 236);
+  overflow: hidden;
+}
+
+.navigation-bar a {
+  float: left;
+  color: #585151;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation-bar a:hover {
+  background-color: #2b2929;
+  color: white;
+}
+
+.navigation-bar a.active {
+  background-color: black;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+ display: flex;
+ flex-wrap: wrap;
+ margin: 20px;
+}
+
+.img {
+  vertical-align: text-top;
+}
